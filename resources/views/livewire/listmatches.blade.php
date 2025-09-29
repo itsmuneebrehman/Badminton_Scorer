@@ -209,7 +209,7 @@ new class extends Component {
         </div>
 
         <!-- Matches Grid -->
-        <div id="matchesContainer" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div id="matchesContainer" class="grid capitalize grid-cols-1 lg:grid-cols-2 gap-6">
             <!-- Live Matches -->
             @forelse ($matches as $match)
                 {{-- scheduled', 'ongoing', 'finished' --}}
